@@ -1,0 +1,111 @@
+
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="jumbotron text-center mt-5" style="border-top: 40px white solid;">
+        <div class="container">
+            <h1 class="display-4">Voici l' <span class='pink'>Utilisateur</span> !</h1>
+                            
+        </div>
+    </div>
+
+<div class= "text-center"><h1><strong><span class='pink'>Utilisateur</span></strong></h1><br></div>
+<div class="container bootstrap snippets bootdey carte">
+<div class="panel-body inf-content">
+    <div class="row">
+        <div class="col-md-4">
+            <img alt="" style="width:600px;" title="" class="img-circle img-thumbnail isTooltip" src="https://bootdey.com/img/Content/avatar/avatar7.png" data-original-title="Usuario"> 
+            <ul title="Ratings" class="list-inline ratings text-center">
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <br>
+            <div class="table-responsive">
+            <table class="table table-user-information">
+                <tbody>
+                     <tr>    
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-user  text-primary"></span>    
+                                First name                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                            <%=@user.first_name%>    
+                        </td>
+                    </tr>
+                    <tr>        
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-cloud text-primary"></span>  
+                                Last name                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                            <%=@user.last_name%>  
+                        </td>
+                    </tr>
+
+                    <tr>        
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-envelope text-primary"></span> 
+                                Email                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                            <%=@user.email%> 
+                        </td>
+                    </tr>
+                    <tr>        
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-calendar text-primary"></span>
+                                Age                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                            <%=@user.age%>
+                        </td>
+                    </tr>
+                    <tr>        
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-calendar text-primary"></span>
+                                Description                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                             <%=@user.description%>
+                        </td>
+                    </tr>   
+                          <tr>        
+                        <td>
+                            <strong>
+                                <span class="glyphicon glyphicon-calendar text-primary"></span>
+                                Ville                                                
+                            </strong>
+                        </td>
+                        <td class="text-primary">
+                             <%=@city.name%>
+                        </td>
+                    </tr>                                                              
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>                                        
+<p></p>
+
+  
